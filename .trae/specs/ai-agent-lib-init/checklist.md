@@ -1,7 +1,0 @@
-- [x] 成功创建 Rust lib 项目 `ai_agent`
-- [x] `Cargo.toml` 包含所有必需依赖（如 `genai`, `rmcp`, `serde`, `toml`, `tokio` 等）
-- [x] 所有的生命周期 Hooks（`on_init`, `on_input` 等 7 个）被正确定义为 Trait 接口
-- [x] `config` 模块能够正确解析并反序列化 TOML 配置文件中的 `name`, `model`, `tools` 等核心字段
-- [x] `tools` 模块的数据结构完全兼容 Claude Tools JSON Schema 规范
-- [x] 能够通过 `rmcp` SDK 建立与外部 MCP Server 的基础客户端连接抽象
-- [x] Agent Loop 核心引擎完整，且在生命周期的关键节点（初始化、推理前后、工具执行前后）正确调用了对应的 Hook 逻辑
